@@ -1,0 +1,15 @@
+{
+  "name": "all-about-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sssssjy/all-about-webpack.git",
+  "author": "sjy <1286847869@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "loader-utils": "2",
+    "webpack-cli": "^5.0.0"
+  }
+}

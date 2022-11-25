@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("str1: learn vite, str2: learn React, str3: learn NODE")})();
