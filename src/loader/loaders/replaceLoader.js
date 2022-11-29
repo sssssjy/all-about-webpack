@@ -7,10 +7,15 @@ const {getOptions} = require('loader-utils');
  *
  * this.callback 返回值给webpack
  */
-module.exports = function (source) {
+const loader = function (source) {
     console.log(this.query.params);
     console.log(getOptions(this));
     const result = source.replace('node', 'NODE').replace('react', 'React').replace('webpack', 'vite');
     //this.callback(null, source, sourceMaps)
     this.callback(null, result);
 }
+
+loader.pitch = function (requestString) {
+    console.log('pitch running')
+}
+module.exports = loader

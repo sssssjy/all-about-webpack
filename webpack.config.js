@@ -8,7 +8,7 @@ module.exports = {
         filename: "[name].js"
     },
     resolveLoader:{
-        modules: ['node_modules', './src/loaders'], //node_modules找不到就去src/loaders中找
+        modules: ['node_modules', './src/loader/loaders'], //node_modules找不到就去src/loaders中找
     },
     module: {
         rules: [{
